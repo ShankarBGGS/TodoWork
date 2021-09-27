@@ -1,0 +1,101 @@
+.bg{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6cacc5;
+}
+
+.unorderedBox{
+    list-style-type: none;
+    padding-top: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 45px;
+    width: 60%;
+    margin-left: 0px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.heading{
+    font-family: Barlow Semi Condensed;
+    width: 600;
+}
+
+.inputContainer{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin-bottom: 25px;
+    padding-left: 0px;
+}
+
+.inputBox{
+    width: 90%;
+    height: 40px;
+    border: 0px;
+    font-family: Stick No Bills;
+}
+
+.searchIcon{
+    height: 40px;
+    cursor: pointer;
+}
+
+.downContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 70%;
+}
+.Box1{
+    width: 20%;
+    background-color:white;
+    height: 100px;
+    margin-right: 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.category{
+    font-family: bree serif;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+}
+
+.selectBox{
+    width: 100%;
+    text-align: center;
+}
+
+.refresh{
+    font-family: bree serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.refreshBox{
+    display: flex;
+    align-items: center;
+}
+
+.refreshButton{
+    cursor: pointer;
+}
+
+.loader {
+    margin-right: 25%;
+    margin-top: 5%;
+}

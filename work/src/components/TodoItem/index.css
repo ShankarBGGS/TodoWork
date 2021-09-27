@@ -1,0 +1,46 @@
+
+.title{
+    font-family: Merienda;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title2{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dropDown{
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.listBox{
+    margin-bottom: 12px;
+    border: 2px solid #31aada;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.body{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: italic;
+}
+.titleBox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.deleteButton{
+    cursor: pointer;
+}
